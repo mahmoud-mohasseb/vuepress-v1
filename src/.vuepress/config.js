@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Peter-vuepress Boilerplate',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,6 +38,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'Peter',
+        link: '/peter/',
+      },
+      {
         text: 'Config',
         link: '/config/'
       },
@@ -53,6 +57,17 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'using-vue',
+          ]
+        }
+      ],
+      '/peter/': [
+        {
+          title: 'peter',
+          collapsable: false,
+          children: [
+            'peter1',
+            'peter2',
             'using-vue',
           ]
         }
