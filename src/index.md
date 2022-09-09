@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://docs.wasabiwallet.io/Logo_without_text.png
 tagline: 
 actionText: Quick Start →
 actionLink: /guide/

@@ -64,11 +64,20 @@ module.exports = {
       '/peter/': [
         {
           title: 'peter',
-          collapsable: false,
+          collapsable: true,
           children: [
             'peter1',
             'peter2',
-            'using-vue',
+            
+          ]
+        },
+        {
+          title: 'peter-chaudhary',
+          collapsable: true,
+          children: [
+            'peter3',
+            'peter4',
+           
           ]
         }
       ],
